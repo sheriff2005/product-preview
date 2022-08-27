@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*centering body using position absolute*/
+body{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:hsl(30,38%,92%);
+}
+p{
+    font-size:14px;
+    font-family:Monospace;
+}
+img{
+    height:360px;
+    width:280px;
+    border-radius:10px 0px 0px 10px;
+}
+.main-content{
+    height:360px;
+    width:280px;
+    line-height:1.6em;
+    background-color: #fff;
+    border-radius:0px 10px 10px 0px;
+}
+/*flex-container*/
+.flex-container{
+   display: flex;
+}
+.head{
+    margin-top: 20px;
+    margin-left:20px;
+}
+.discription{
+    margin-top:20px;
+    margin-left: 20px;
+}
+.discription-body{
+    margin-top: 20px;
+    margin-left:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*pricing-figs*/
+.pricing-figs{
+    margin-top:20px;
+    margin-left: 20px;
+}
+.pricing-figs span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:800;
+    font-size:25px;
+    color:hsl(158,36%,37%);
+    margin-right:10px;
+}
+.btn-1{
+    margin-top:15px;
+    margin-left:20px;
+}
+.btn-1 button{
+    height:35px;
+    width:90%;
+    background-color:hsl(158,36%,37%);
+    color:#fff;
+    border-radius:8px;
+}
+.challenge{
+    margin-top: 20px;
+}
+/*media queries*/
+@media (max-width:750px){
+   .flex-container{
+      display:flex;
+      flex-direction:column;   
+   }
+   img{
+    height:260px;
+    width:280px;
+    border-radius:10px 10px 0px 0px;
+   }
+   .main-content{
+    height:360px;
+    width:280px;
+    line-height:1.6em;
+    background-color: #fff;
+    border-radius:0px 0px 10px 10px;
+    margin-top: 0px;
+   }
+}
+/*I hope this meets the required standard*/
